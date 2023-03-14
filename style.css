@@ -437,8 +437,16 @@ footer{
 
 @media(max-width: 800px){
 
+    #initial .content{
+        margin-top: 8rem;
+    }
+
     main section {
         margin-bottom: 5rem;
+    }
+
+    #about{
+        padding: 0;
     }
 
     #about .content{
@@ -452,6 +460,8 @@ footer{
     #services .card{
         border: none;
         border-radius: 0;
+        background-color: var(--black);
+        border-top: 0.1rem solid var(--jet);
     }
 
     #services .card:hover{
